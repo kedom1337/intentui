@@ -5,7 +5,7 @@ const DescriptionList = ({ className, ref, ...props }: React.ComponentProps<"dl"
     <dl
       ref={ref}
       className={twMerge(
-        "grid grid-cols-1 text-base/6 sm:grid-cols-[min(50%,calc(var(--spacing)*80))_auto] sm:text-sm/6",
+        "grid grid-cols-2 text-base/6 sm:grid-cols-[min(50%,calc(var(--spacing)*80))_auto] sm:text-sm/6",
         className,
       )}
       {...props}
